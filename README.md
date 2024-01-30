@@ -13,6 +13,33 @@ Participants tested three scenarios lasting 15–18 minutes, with breaks and sur
 ## Dataset Structure
 The collected raw data was processed particularly for the analyses in the associated research paper. The data from individual participants was concatenated and merged into a single xls file for further evaluation. The data used for comparison between the GroupN and GroupAI is presented in the merged normalized data folder. The xls file contains the data points for each participant per row, and each column represents the data and sub-data collected from various sources. As the focus of this analysis is not between the scenarios, the data is normalized across scenarios to avoid the effect of the scenarios in the analysis and is averaged for every participant to acquire a single vector of data for each participant.
 
+### Merged Normalized Data
+- **File Name**: `merged_normalized_data.xls`
+- **Description**: This file contains the merged and normalized data for comparison between GroupN and GroupAI. Each row represents a participant, and each column contains the data and sub-data collected from various sources. The data is normalized across scenarios to avoid the effect of the scenarios in the analysis and is averaged for every participant to acquire a single vector of data for each participant.
+
+#### Data Columns
+1. **Biometric Measures**
+   - *Electrodermal Activity (EDA) or Galvanic Skin Response (GSR)*: Measures the skin’s electrical conductance, influenced by sweat gland activity.
+   - *Pulse Rate or Heart Rate*: Defines the number of heartbeats per unit time (bpm).
+   - *Temperature*: Represents the body temperature, indicating the degree of coldness or hotness of the body.
+
+2. **Operational Measures**
+   - *Response Time*: The time taken to respond to a specific event or stimulus.
+   - *Reaction Time*: The time taken to initiate a response once a stimulus is presented.
+   - *Performance Metrics*: Various metrics related to the performance of the participants during the simulation tasks.
+
+3. **AI Support Metrics**
+   - *AI Acknowledgement*: The number of times the AI acknowledgment button was pressed during the duration of each scenario.
+   - *AI vs Human Response*: Deviations and preliminary analysis of decisions taken by the human participant and suggestions by AI/DRL agent.
+
+4. **Process, Alarms, and HMI Logs**
+   - *Number of Alarms Annunciated*: The count of alarms announced during the simulation.
+   - *Number of Alarms Silenced*: The count of alarms silenced by the participants.
+   - *Number of Alarms Acknowledged*: The count of alarms acknowledged by the participants.
+   - *Number of Procedures Opened*: The count of procedures opened during the duration of each scenario.
+   - *Number of Mimics Opened*: The count of mimics opened during the duration of each scenario.
+
+
 ## Value of the Data
 The dataset provides an opportunity to study the integration of human-in-the-loop configurations with AI systems in safety-critical industries. By examining the data, researchers can identify the factors necessary for successful collaboration between humans and AI. This knowledge can lead to the development of optimized interaction mechanisms, ensuring that the strengths of both humans and AI are leveraged effectively to enhance decision-making in critical scenarios.
 
