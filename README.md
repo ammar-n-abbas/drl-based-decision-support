@@ -2,7 +2,7 @@
 
 Welcome to the Control Room Simulation Dataset repository! This dataset contains valuable information derived from a simulated formaldehyde production plant, involving participant interaction within a controlled experimental setting resembling a control room. The dataset is utilized for statistical analysis to compare outcomes among different groups and has potential applications for decision-makers involved in control room design and optimization, process safety engineers, system engineers, human factors engineers in process industries, and researchers in related domains. This repository contains the code for DRL-based decision support tool usage in control room scenarios: 
 
-https://arrow.tudublin.ie/schfsehart/533/
+https://arxiv.org/abs/2402.13219
 
 ## Overview
 The dataset encompasses measurements obtained from diverse data sources during the period spanning May to August 2023. It incorporates both objective and subjective metrics commonly employed in assessing cognitive states related to workload, situational awareness, stress, and fatigue. Various data collection tools such as health monitoring watch, eye tracking, process and HMI logs, operational metrics (response time, reaction time, performance, etc), NASA Task Load Index (NASA-TLX), Situation Awareness Rating Technique (SART), a think-aloud Situation Presence Assessment Method (SPAM), AI support questions, and AI vs human error were utilized.
